@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33771046200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should launch the browser and load the url",
+            "match": {
+              "location": "Foodeesteps.userShouldLaunchTheBrowserAndLoadTheUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-13T07:26:46.483Z",
+        "line": 15,
+        "name": "To validate the signup functions of the foodee with invalid customer details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-foodee-application;to-validate-the-signup-functions-of-the-foodee-with-invalid-customer-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10880921400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should maximize the screen and click the login button",
+            "match": {
+              "location": "Foodeesteps.userShouldMaximizeTheScreenAndClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 511973800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should enter the invalid name \"Nivedha\" and invalid email id \"g.nive@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nivedha\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"g.nive@gmail.com\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Foodeesteps.userShouldEnterTheInvalidNameAndInvalidEmailId(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560658200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "Foodeesteps.userShouldClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705231600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should give the delivery address",
+            "match": {
+              "location": "Foodeesteps.userShouldGiveTheDeliveryAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30873400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should navigate to invalid credential page",
+            "match": {
+              "location": "Foodeesteps.userShouldNavigateToInvalidCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30737838000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should launch the browser and load the url",
+            "match": {
+              "location": "Foodeesteps.userShouldLaunchTheBrowserAndLoadTheUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-13T07:27:33.061Z",
+        "line": 18,
+        "name": "To validate the login functionality of the foodee",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-foodee-application;to-validate-the-login-functionality-of-the-foodee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10054941000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should enter the invalid email and invalid password",
+            "match": {
+              "location": "Foodeesteps.userShouldEnterTheInvalidEmailAndInvalidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "g.nive06@gmail.com",
+                  "12345678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //button//span[text()\u003d\u0027Continue\u0027]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.1\u0027, revision: \u0027eb2032df7f\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [786211ae-2db0-46a1-892c-11d7f3615408, findElement {using\u003dxpath, value\u003d//button//span[text()\u003d\u0027Continue\u0027]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:23773, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13196, moz:profile: C:\\Users\\sendo\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23773/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 786211ae-2db0-46a1-892c-11d7f3615408\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.steps.Foodeesteps.userShouldClickTheContinueButton(Foodeesteps.java:39)\r\n\tat ✽.User should click the continue button(file:src/test/resources/FeatureFile/Signup.feature:25)\r\n",
+              "duration": 50906100,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "Foodeesteps.userShouldClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 950100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should navigate to invalid credential page",
+            "match": {
+              "location": "Foodeesteps.userShouldNavigateToInvalidCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the foodee application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-foodee-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Signup.feature",
+    "tags": []
+  }
+]
